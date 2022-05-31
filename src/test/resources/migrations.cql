@@ -134,26 +134,29 @@ CREATE TABLE updatebuilderspec_person
     age  INT
 );
 
-CREATE TABLE relationspec_person(
+CREATE TABLE relationspec_person
+(
     id   INT PRIMARY KEY,
     name TEXT,
     age  INT
 );
 
-CREATE TABLE deletebuilderspec_person(
+CREATE TABLE deletebuilderspec_person
+(
     id   INT PRIMARY KEY,
     name TEXT,
     age  INT
 );
 
-CREATE TABLE insertbuilderspec_person(
+CREATE TABLE insertbuilderspec_person
+(
     id   INT PRIMARY KEY,
     name TEXT,
     age  INT
 );
 
-CREATE TABLE local_time_date(
+CREATE TABLE timestampspec
+(
     id   INT PRIMARY KEY,
-    name TEXT,
-    date timestamp,
-    );
+    timestamp timestamp,
+);
