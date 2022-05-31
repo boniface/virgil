@@ -151,3 +151,9 @@ CREATE TABLE insertbuilderspec_person(
     name TEXT,
     age  INT
 );
+
+CREATE TABLE local_time_date(
+    id   INT PRIMARY KEY,
+    name TEXT,
+    date timestamp,
+    );

@@ -71,6 +71,7 @@ object AllTests extends ZIOSpecDefault {
             CursorSpec.cursorSpec +
             UpdateBuilderSpec.updateBuilderSpec +
             RelationSpec.relationSpec +
+            LocalDateTimeSpec.localDateTimeSpec+
             DeleteBuilderSpec.deleteBuilderSpec +
             InsertBuilderSpec.insertBuilderSpec
         ).provideCustomLayerShared(Clock.live ++ Random.live ++ dependencies)
